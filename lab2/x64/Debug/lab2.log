@@ -1,0 +1,4 @@
+﻿  lab2.cpp
+C:\Users\1\source\repos\mizmorr\clabs\clabs\lab2\lab2.cpp(37,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\1\source\repos\mizmorr\clabs\clabs\lab2\lab2.cpp(56,17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  lab2.vcxproj -> C:\Users\1\source\repos\mizmorr\clabs\clabs\lab2\x64\Debug\lab2.exe
