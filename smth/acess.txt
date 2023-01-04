@@ -1,0 +1,3 @@
+r _ rw r 
+_ rw rw rw 
+_ r w _ 

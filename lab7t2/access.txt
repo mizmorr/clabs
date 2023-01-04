@@ -1,0 +1,4 @@
+r _ rw r _ 
+rw rw rw _ r 
+w _ w rw r 
+w _ w r r 

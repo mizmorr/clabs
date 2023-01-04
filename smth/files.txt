@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+#include <fstream>
+#include <string>
+int kolvo(string s)
+{
+    int k=0;
+    for(int i=0;i<s.size();i++)
+    if (s[i]>=0&&s[i]<=9) k++;
+    return k;
+
+}
+bool alph(char d)
+{
+    if ((d>='A'&&d<='Z')||(d>='a'&&d<='z')) return 1;
+    else return 0;
+}
+void zam(string k)
+{
+    if (kolvo(k)>2) 
+    {
+        for(int i=0;i<k.size()-1;i++)
+        {
+            if(alph(k[i])==1&&alph(k[i+1])==1) k.insert(i+1,"-");
+        }
+
+    }
+}
+int main()
+{
+// {   string a;
+//     ifstream f("f.txt");
+//     ofstream g("g.txt");
+//     while(!f.eof())
+//     {
+//         f>>a;
+//         zam(a);
+//         g<<a<<endl;
+//     }
+//     f.close();
+
+//     g.close();
+d
+cout<<"bimbo";
+}
